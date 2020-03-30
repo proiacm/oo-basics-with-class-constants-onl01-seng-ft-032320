@@ -10,7 +10,7 @@ class Shoe
       if @brand != brand
     BRANDS << brand
       else
-        
+      return  
     end
   end
 
