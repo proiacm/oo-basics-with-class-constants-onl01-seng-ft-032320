@@ -9,7 +9,7 @@ class Shoe
     @brand = brand
       if BRANDS.include?(brand)
         next
-      else
+    else
     BRANDS << brand
     end
   end
